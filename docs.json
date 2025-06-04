@@ -63,5 +63,9 @@
       "x": "https://x.com/Pickle_AI",
       "linkedin": "https://linkedin.com/company/get-pickle-ai"
     }
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
   }
 }
