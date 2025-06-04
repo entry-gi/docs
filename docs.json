@@ -13,20 +13,17 @@
       {
         "group": "Get Started",
         "pages": [
-          "index",
-          "quickstart",
-          "development"
+          "getstarted/installpickle",
+          "getstarted/createlook",
+          "getstarted/activatinglipsync",
+          "getstarted/streamtootherapps"
         ]
       },
       {
-        "group": "Essentials",
+        "group": "Troubleshooting",
         "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/images",
-          "essentials/settings",
-          "essentials/navigation",
-          "essentials/reusable-snippets"
+          "troubleshooting/streamtroubleshooting",
+          "troubleshooting/uninstallpickle"
         ]
       }
     ],
