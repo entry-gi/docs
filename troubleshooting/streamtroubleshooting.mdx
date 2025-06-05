@@ -1,5 +1,42 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Stream Troubleshooting"
 ---
 
+When you're trying to stream your AI Self view to other apps, **Pickle Camera** play as a video output, and **Pickle Delayed Voice for Lip-sync** play as an audio output from your AI Self that you should choose as an audio input in other apps. Both are virtual devices that you can install, update, delete and can be selected as camera and audio inputs across any app on macOS.
+
+## I can't find Pickle Camera in other apps
+
+1. **Completely quit**`(Cmd + Q)` the specific app where you're tring to select Pickle Camera, then reopen it.
+
+   <Note>
+     If it's browser (e.g., Google Meet on Chrome), ensure you **completely quit the browser**(Cmd \+ Q), not just the window, then reopen it.
+   </Note>
+2. If Pickle Camera still not visible:
+
+   > - Open the Pickle App.
+   > - Click the <Icon icon="circle-user" iconType="solid" /> Account, then select **Settings**.
+   > - Navigate to the **Troubleshoot** section.
+   > - Click **Refresh Pickle Camera** and follow the on-screen instructions.
+
+## I can't find Pickle Delayed Voice for Lip-sync in other apps
+
+1. Completely quit (Cmd \+ Q) the specific app where you're trying to select Pickle Delayed Voice for Lip-sync, then reopen it.
+
+   <Note>
+     If it's browser (e.g., Google Meet on Chrome), ensure you **completely quit the browser**(Cmd \+ Q), not just the window, then reopen it.
+   </Note>
+2. If the problem persists:\
+   Restart your Mac computer.
+3. If the issue remains unresolved, follow these steps:
+
+   > - Open **Finder**.
+   > - From the top menu, click **Go**.
+   > - Click **Go to Folder... **and type `/` , then press **Enter**.
+   > - Navigate to `Macintosh HD > Library > Audio > Plug-Ins > HAL`.
+   > - Delete the folder named `PickleVirtualMic.driver`.
+   > - Completely quit the Pickle App `(Cmd + Q)` and reopen it.
+   > - Follow the on-screen instructions to reinstall **Pickle Delayed Voice for Lip-sync**.
+
+---
+
+If you encounter issues that persist despite these troubleshooting steps, please contact our support team for further assistance.
