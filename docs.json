@@ -9,21 +9,27 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "anchors": [
       {
-        "group": "Get Started",
-        "pages": [
-          "getstarted/installpickle",
-          "getstarted/createlook",
-          "getstarted/activatinglipsync",
-          "getstarted/streamtootherapps"
-        ]
-      },
-      {
-        "group": "Troubleshooting",
-        "pages": [
-          "troubleshooting/streamtroubleshooting",
-          "troubleshooting/uninstallpickle"
+        "anchor": "Docs",
+        "icon": "slack",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "getstarted/installpickle",
+              "getstarted/createlook",
+              "getstarted/activatinglipsync",
+              "getstarted/streamtootherapps"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/streamtroubleshooting",
+              "troubleshooting/uninstallpickle"
+            ]
+          }
         ]
       }
     ],
