@@ -28,23 +28,16 @@
       }
     ],
     "global": {
-      "tabs": [
-        {
-          "tab": "Help Center",
-          "icon": "slack",
-          "href": "https://www.pickle.com/manifesto"
-        }
-      ],
       "anchors": [
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "anchor": "Help Center",
+          "href": "https://pickle.mintlify.app",
           "icon": "slack"
         },
         {
           "anchor": "Contact Us",
           "href": "https://pickle.com/contact",
-          "icon": "contact"
+          "icon": "slack"
         }
       ]
     }
