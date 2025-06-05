@@ -28,6 +28,13 @@
       }
     ],
     "global": {
+      "tabs": [
+        {
+          "tab": "Help Center",
+          "icon": "slack",
+          "href": "https://www.pickle.com/manifesto"
+        }
+      ],
       "anchors": [
         {
           "anchor": "Community",
