@@ -32,21 +32,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Help Center",
-          "href": "https://pickle.mintlify.app",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Contact Us",
-          "href": "https://pickle.com/contact",
-          "icon": "slack"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
