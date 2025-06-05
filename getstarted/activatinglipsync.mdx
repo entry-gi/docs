@@ -1,5 +1,116 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Activating Lip-sync Control"
+description: "Let your AI Self lip-sync to your voice in real-time."
 ---
 
+## Enabling Lip-sync Control for Each Look
+
+<img
+  src="/images/activatinglipsync_01.png"
+  alt="activatinglipsync_01.png"
+  title="activatinglipsync_01.png"
+  style={{ width:"58%" }}
+/>
+
+every newly created look needs require a one-time lip-sync activation before lip-sync control can be used. This activation begins automatically when the look is created and takes about **1 hour**.
+
+## After Activation: Start Lip-sync Control
+
+Once activation is completed:
+
+### Step 1: Initiating Lip-Sync
+
+<img
+  src="/images/activatinglipsync_02.png"
+  alt="activatinglipsync_02.png"
+  title="activatinglipsync_02.png"
+  style={{ width:"58%" }}
+/>
+
+- Click **Start Lip-Sync Control** to enable synchronization. It will take **7-8 seconds**.
+- **Allow microphone permission** when prompted.
+
+### Step 2: Enable Voice Isolation
+
+<img
+  src="/images/activatinglipsync_03.png"
+  alt="activatinglipsync_03.png"
+  title="activatinglipsync_03.png"
+  style={{ width:"57%" }}
+/>
+
+Enable the Voice Isolation setting to ensure clear audio input. This is one-time setup, so you don't need to enable everytime you open the app. For details, see <u>What is Voice Isolation</u> below.
+
+### Step 3: Using Lip-sync
+
+<img
+  src="/images/activatinglipsync_04.png"
+  alt="activatinglipsync_04.png"
+  title="activatinglipsync_04.png"
+  style={{ width:"55%" }}
+/>
+
+Once started, speak into your microphone. Your AI Self will mirror your mouth movements with less than a 1-second delay.
+
+## Control Pannel
+
+<AccordionGroup>
+  <Accordion title="Selecting Microphone" icon="microphone-stand">
+    <img
+      src="/images/activatinglipsync_05.png"
+      alt="activatinglipsync_05.png"
+      title="activatinglipsync_05.png"
+      className="mr-auto"
+      style={{ width:"42%" }}
+    />
+
+    Choose which microphone to use for lip-sync input. System default microphone is selected automatically.
+
+    > Tip: Using Airpods usually gives best results when you try to use your AI Self in virtual meetings.
+  </Accordion>
+  <Accordion title="Blocking Voice input" icon="microphone-slash">
+    <img
+      src="/images/activatinglipsync_06.png"
+      alt="activatinglipsync_06.png"
+      title="activatinglipsync_06.png"
+      style={{ width:"42%" }}
+    />
+
+    Click the microphone itself to temporarily stop lip-sync input. When blocked, **your AI Self will stay mouth closed**.
+  </Accordion>
+  <Accordion title="Ending Lip-sync Control" icon="circle-xmark">
+    <img
+      src="/images/activatinglipsync_07.png"
+      alt="activatinglipsync_07.png"
+      title="activatinglipsync_07.png"
+      style={{ width:"40%" }}
+    />
+
+    You can stop lip-sync at any time. The activation remains with the look, allowing you to resume lip-sync control whenever you wish.
+  </Accordion>
+</AccordionGroup>
+
+## What is Pickle Delayed Voice for Lip-sync?
+
+Utilizing this, you can ensure your audio and visual outputs align correctly when using your AI Self in external applications like Zoom:
+
+> - When lip-sync is active, there is a ~0.7s delay before your AI Self mirrors your voice.
+> - Opponents will experience mismatch between your audio and video.
+
+To test the delayed audio output and see how it looks like to your opponent in Video calls, activate Preview Pickle Delayed Voice for Lip-sync on Speaker.
+
+## What is Voice Isolation?
+
+Voice Isolation prevents your microphone from capturing opponent's speaking audio. Effective when using built-in microphones (e.g., MacBook Pro Microphone) instead of earbuds. It's saved setting, so you don't need to enable everytime.
+
+<img
+  src="/images/activatinglipsync_08.png"
+  alt="activatinglipsync_08.png"
+  title="activatinglipsync_08.png"
+  style={{ width:"46%" }}
+/>
+
+To activate, 
+
+1. Click on **orange <Icon icon="circle-microphone" iconType="solid" color="#ff9702" /> icon** on the top menu bar when lip-sync is on.
+2. Click '**Mic Mode**' and select '**Voice Isolation**'.
