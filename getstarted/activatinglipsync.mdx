@@ -3,6 +3,7 @@ title: "Activating Lip-sync Control"
 description: "Let your AI Self lip-sync to your voice in real-time."
 ---
 
+
 ## Enabling Lip-sync Control for Each Look
 
 <img
@@ -92,16 +93,34 @@ Once started, speak into your microphone. Your AI Self will mirror your mouth mo
 
 ## What is Pickle Delayed Voice for Lip-sync?
 
-Utilizing this, you can ensure your audio and visual outputs align correctly when using your AI Self in external applications like Zoom:
+This is for when you try to stream your AI Self into other apps like Zoom.
 
-> - When lip-sync is active, there is a ~0.7s delay before your AI Self mirrors your voice.
-> - Opponents will experience mismatch between your audio and video.
+<img
+  src="/images/activatinglipsync_09.png"
+  alt="activatinglipsync_09.png"
+  title="activatinglipsync_09.png"
+  style={{ width:"48%" }}
+/>
 
-To test the delayed audio output and see how it looks like to your opponent in Video calls, activate Preview Pickle Delayed Voice for Lip-sync on Speaker.
+- Your**AI Self view (Pickle Camera)**  is **0.5s slower** than your real voice.
+- So we made Pickle Delayed Voice for Lip-sync, which is an **audio stream** that is exactly \*\*0.5s delayed version \*\*of your voice input, so that matches perfectly with Pickle Camera.
+
+In video call, select **Pickle Camera** as your camera and **Pickle Delayed Voice for Lip-sync** as your audio. Your video and audio will appear perfectly synced to other participants.
+
+### Checking Sync Between Pickle Delayed Voice for Lip-sync and Your AI Self View
+
+<img
+  src="/images/activatinglipsync_10.png"
+  alt="activatinglipsync_10.png"
+  title="activatinglipsync_10.png"
+  style={{ width:"33%" }}
+/>
+
+To test the delayed audio output and see how it looks like to your opponent in Video calls, activate Preview Pickle Delayed Voice for Lip-sync on Speaker. The feedback sound will matches with your AI Self view.
 
 ## What is Voice Isolation?
 
-Voice Isolation prevents your microphone from capturing opponent's speaking audio. Effective when using built-in microphones (e.g., MacBook Pro Microphone) instead of earbuds. It's saved setting, so you don't need to enable everytime.
+Voice Isolation prevents your microphone from capturing opponent's speaking audio. Effective when using built-in microphones (e.g., MacBook Pro Microphone) instead of earbuds. This setting is saved, so you don't need to enable it every time.
 
 <img
   src="/images/activatinglipsync_08.png"
@@ -110,7 +129,7 @@ Voice Isolation prevents your microphone from capturing opponent's speaking audi
   style={{ width:"46%" }}
 />
 
-To activate, 
+To activate,
 
-1. Click on **orange <Icon icon="circle-microphone" iconType="solid" color="#ff9702" /> icon** on the top menu bar when lip-sync is on.
+1. Click on **orange  icon** on the top menu bar when lip-sync is on.
 2. Click '**Mic Mode**' and select '**Voice Isolation**'.
